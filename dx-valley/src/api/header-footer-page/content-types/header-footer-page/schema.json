@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "header_footer_pages",
+  "info": {
+    "singularName": "header-footer-page",
+    "pluralName": "header-footer-pages",
+    "displayName": "Header_Footer_page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "layout.heading",
+        "layout.footer"
+      ]
+    }
+  }
+}

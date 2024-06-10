@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "leaders_pages",
+  "info": {
+    "singularName": "leaders-page",
+    "pluralName": "leaders-pages",
+    "displayName": "Leaders_page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "block": {
+      "type": "dynamiczone",
+      "components": [
+        "layout.leaders"
+      ]
+    }
+  }
+}

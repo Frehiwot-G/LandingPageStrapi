@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "projects_pages",
+  "info": {
+    "singularName": "projects-page",
+    "pluralName": "projects-pages",
+    "displayName": "Projects_page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "block": {
+      "type": "dynamiczone",
+      "components": [
+        "layout.projects",
+        "layout.work",
+        "layout.category"
+      ]
+    }
+  }
+}

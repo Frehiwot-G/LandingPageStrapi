@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_component_abouts",
+  "info": {
+    "displayName": "About",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "about_us": {
+      "displayName": "About_description",
+      "type": "component",
+      "repeatable": false,
+      "component": "component.about-description"
+    },
+    "about_page_2": {
+      "displayName": "about_page_2",
+      "type": "component",
+      "repeatable": true,
+      "component": "component.about-page-2"
+    }
+  }
+}
